@@ -11,5 +11,7 @@
 |
 */
 
+Route::get('home', 'UserController@home')->name('home');
 Route::get('/', 'UserController@index');
 Route::POST('/createUser', 'UserController@create');
+Route::POST('/signin', 'UserController@signin');

@@ -18,10 +18,8 @@
 
     </head>
     <body>
-
     <div id="app">
-        <example-component :users="{{$users}}"></example-component>
-        <add-button></add-button>
+ <add-button :users="{{$users}}"></add-button>
     </div>
 
     </body>
